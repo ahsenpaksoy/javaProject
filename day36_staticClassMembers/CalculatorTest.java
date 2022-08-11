@@ -23,7 +23,13 @@ public class CalculatorTest {
 		//static methods are called as ClassName.methodName(); or 
 		//methodName(); only if in the same class
 		
-		// Aciklama eklenecek
+		
+		CalculatorTest.m2();
+		CalculatorTest c2 = new CalculatorTest();
+		c2.m2();
+		m2();
+		
+		
 		
 		
 	}
